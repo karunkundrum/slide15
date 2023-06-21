@@ -1,1 +1,2 @@
-# slide15
+# Slide 15
+# Game in C
