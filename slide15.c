@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//#include "hw3.h"
 
 enum opt_command {NONE=0, LEFT=1, UP=2, RIGHT=3, DOWN=4, HELP=5, QUIT=6};
 
@@ -68,7 +67,7 @@ int empty_cell(char *board){
 int up_neighbor(int i){
     // return the index of the "up neighbor" of the given index
     // return -1 if there is no up neighbor
-    // ex: up_neighbor(4) --> 0 [note: corrected from 1]
+    // ex: up_neighbor(4) --> 0 
     
     if (i - 4 >= 0){
         return i - 4;
